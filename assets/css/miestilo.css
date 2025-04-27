@@ -1,0 +1,261 @@
+body{
+    background-color: #f1dbe2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar{
+    background-color: #f7f2ec;
+    height: 70px;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 0.5rem;
+}
+
+.navbar-toggler{
+    border: none;
+    font-size: 1.25 rem;
+
+}
+
+.navbar-toggler:focus, .btn-close:focus{
+    box-shadow: none;
+    outline:none;
+}
+
+.nav-link{
+    color: #f34b72;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-ling:hover, .nav-link:active{
+    color: #000;
+}
+
+@media(min-width: 991px) {
+    
+
+.nav-link::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #f34b72;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before, .nav-link.active::before{
+    width: 100%;
+    visibility: visible;
+
+}
+}
+
+.navbar-brand img{
+    border-radius: 50%;
+}
+
+.c-item{
+    margin-top: 120px;
+    height: 400px;
+}
+
+.c-img{
+    height: 650px;
+    object-fit: cover;
+}
+
+.carousel{
+    max-width: 1300px;
+    margin: 20px;
+}
+
+.footer{
+    margin-top: 30px;
+    background-color:#f7f2ec;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.introduccion{
+    margin-top: 47px;
+}
+
+.introduccion h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+
+}
+
+.introduccion p{
+    padding-left: 25px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.comercializacion{
+    padding-left:  30px;
+    padding-right: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.comercializacion h1{
+    margin-top: 120px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold
+  } 
+  
+.comercializacion h2{
+    margin-bottom: 10px;
+    margin-top: 16px;
+    color: #ee819a;
+    font-weight: bold;
+}
+.comercializacion p{
+    font-size: 22px;
+    margin-bottom: 28px;
+    text-align: justify;
+}
+
+.comercializacion ul{
+    font-size: 22px;
+    margin-bottom: 28px;
+}
+
+.contacto p{
+    font-size: 22px;
+    margin-bottom: 28px;
+    text-align: justify;
+}
+
+.contacto h1{
+    margin-top: 120px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.contacto{
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.categoria{
+    margin:45px 10px 0 10px;
+}
+
+.categoria h2{
+   font-weight: bold;
+}
+
+.card-body{
+    background-color:#f7f2ec;
+
+}
+
+.row{
+    margin:10px;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.footer a{
+    text-decoration: none;
+    color:#f34b72;
+    
+}
+
+.col img{
+    height: 350px;
+    object-fit: cover;
+}
+
+.footer a:hover{
+    border-bottom: 1px solid;
+}
+
+.ventanas a{
+    margin-right: 28px;
+}
+
+.ventanas{
+    margin-bottom: 13px;
+}
+
+.footer p{
+    font-size: 18px;
+}
+
+.terminos-usos{
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.terminos-usos h1{
+    margin-top: 120px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+.terminos-usos h2{
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ee819a;
+}
+
+.terminos-usos p{
+    margin-bottom: 28px;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.terminos-usos li{
+    font-size: 20px;
+}
+
+.sobre-nosotras{
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.sobre-nosotras h1{
+    margin-top: 120px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.sobre-nosotras h2{
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ee819a;
+}
+
+.sobre-nosotras p{
+    margin-bottom: 28px;
+    font-size: 22px;
+    text-align: justify;
+}
